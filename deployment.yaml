@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-world-container
-          image: ghcr.io/kubelub/zelda-cookbook:main
+          image: ghcr.io/kubelub/zelda-cookbook:sha256-b8d4c87e0f8610b6e201753722958010c158564532ca39779573c887cb892ed0.sig
           ports:
           - containerPort: 3000
       imagePullSecrets:
